@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  #vmImage: ubuntu-latest
+  name: 'azure-devops-vmss'
 
 variables:
   buildConfiguration: 'Release'

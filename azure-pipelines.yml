@@ -2,10 +2,10 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'ubuntu-20.04'
-  demands:
-  - npm
-  #name: "azure-devops-vmss"
+  #vmImage: 'ubuntu-20.04'
+  #demands:
+  #- npm
+  name: "azure-devops-vmss"
 
 variables:
   buildConfiguration: 'Release'
